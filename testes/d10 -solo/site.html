@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Android</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+        @font-face {
+            font-family: 'Android';
+            src: url(Android\ Hollow.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(66, 238, 166, 0.589);
+            margin: 0px;
+        }
+
+        header {
+            background-image: linear-gradient(to bottom,rgba(0, 235, 125, 0.938), rgba(0, 133, 71, 0.938), rgba(0, 71, 39, 0.938));
+            padding:10px;
+            margin: 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.363);
+        }
+
+        h1#titulo {
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Smooch Sans', sans-serif;
+            color: white;
+        }
+
+        h1#primeira {
+            background-image: linear-gradient(to center, rgb(2, 170, 2), rgba(0, 255, 0, 0.342));
+        }
+
+        h1{
+            font-family: 'Android';
+            text-align: left;
+            font-size: 40px;
+            color: rgb(98, 221, 129);
+            background-image: linear-gradient(to center, rgb(2, 170, 2), rgba(0, 255, 0, 0.342));
+        }
+
+        h2{
+            font-family: 'Android';
+            text-align: left;
+            font-size: 30px;
+            color: rgb(98, 221, 129);
+            background-image: linear-gradient(to center, rgb(2, 170, 2), rgba(0, 255, 0, 0.342));
+        }
+
+        p#tecnologia {
+            margin: 30px;
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 10px;    
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            margin-inline: 144px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.363);
+        }
+
+        
+        article > aside {
+            background-color: rgb(165, 163, 163);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Curiosidades de Tecnologia</h1>
+        <p id="tecnologia">Tudo aquilo que você sempre quis saber sobre o mundo <br> Tech, em um único lugar</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>História do Mascote do Android</h1>
+                <p>Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+                <h2>A primeira versão</h2>
+                <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <strong>Dan Morrill</strong>. Ele conta que abriu o <strong>Inkscape</strong> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p> <br>
+                <div><img src="imagens/dan-droids.png" alt=""></div>
+                <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <strong>Dandroids</strong>.</p>
+                <h2>Surge um novo mascote</h2>
+                <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <strong>Irina Blok</strong>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+                </p>
+                <div id="mulher">
+                    <img src="imagens/irina-blok.jpg" alt="">
+                </div>
+                
+                <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <strong>Bugdroid</strong>, o novo mascote do Android.
+                </p>
+                <div><img src="imagens/bugdroid.png" alt=""></div>
+                <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
+            </article>
+            <article>
+
+            </article>
+             
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
