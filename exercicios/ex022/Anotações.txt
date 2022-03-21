@@ -1,0 +1,4 @@
+Linhas  = X
+Colunas = Y
+Por padrão a imagem sempre vai começar no left top
+treinar com os exercícios 3, 4 e 5
