@@ -1,0 +1,4 @@
+você não pode usar tabela para criar a estrutura do seu site.
+se a heirarquia não for obedecida os dados vão aparecer antes ou depois
+text-align: left center right
+vertical-align: top middle bottom
