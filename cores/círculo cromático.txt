@@ -1,0 +1,8 @@
+Cores Primárias                     Cores Secundárias                      Cores Terciárias
+
+Amarelo                             Laranja                                Amarelo-Alaranjado
+Vermelho                            Violeta                                Vermelho-Alaranjado
+Azul                                Verde                                  Vermelho-Roxeado
+                                                                           Azul-Roxeado
+                                                                           Azul-Esverdeado
+                                                                           Amarelo-Esverdeado
